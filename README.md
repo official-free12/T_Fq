@@ -1,0 +1,6 @@
+# TP5升级版聚合支付系统/第三方支付系统/多商家/支付宝微信支付/代理佣金/商家支付对接
+
+TP5升级版聚合支付系统/第三方支付系统/多商家/支付宝微信支付/代理佣金/商家支付对接<br>1、在宝塔新建个站点，example.com.4，运行目录设置为/public，关闭防跨站攻击<br>2、导入数据库文件，数据库文件在/example.com<br>3、修改数据库连接配置，配置文件是/.env<br>4、正式使用时，请把调试模式关闭：/.env文件，true改成false<br>5、后台地址：http://域名/admin 初始账号密码：admin 123456 及时修改<br>----------------<br>进件功能 - 注意事项：<br>1、example.com.4，并安装fileinfo扩展；example.com<br>2、微信服务商要设置Api_v3密钥，跟Api密钥设置同一个值<br>3、微信服务商必须上传支付证书<br>进件功能 - 使用说明：<br>1、系统-&gt;进件配置：购买并配置ocr识别接口<br>2、代理商-&gt;编辑：设置代理商进件费率<br>3、代理商-&gt;代理商登录按钮，扫码进入代理商手机端；进件功能在：手机端-&gt;我的商户-&gt;管理（没商户的先添加商户）-&gt;微信进件<br>商户地址：http://example.com/shop/#/index; 账号密码：13299999999，123456<br>代理地址：http://example.com/agent/#/index; 账号密码：13288888888，123456<br>总后台：http://example.com/admin/#/index; 账号密码：admin，123456<br>
+
+
+<p style="color: red;">源代码下载地址：<a href="https://mega-file.org/OYAYF" style="color: red;">https://mega-file.org/OYAYF</a></p><p style="color: red;"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram Icon" style="width: 16px; vertical-align: middle; margin-right: 5px;">Telegram:<a href="https://t.me/official_sourcecode" style="color: red;">@official_sourcecode</a></p>
